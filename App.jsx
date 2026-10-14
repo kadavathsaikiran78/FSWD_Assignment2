@@ -1,10 +1,8 @@
-
 function App() {
   const name = "K. Sai Kiran";
   const today = new Date().toLocaleDateString();
   const a = 10;
   const b = 20;
-
   return (
     <div>
       <h1>My React Application</h1>
@@ -14,5 +12,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
