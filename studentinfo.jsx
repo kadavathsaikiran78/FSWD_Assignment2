@@ -1,9 +1,7 @@
 import React from 'react';
-
 const StudentDetails = ({ student }) => {
   const details = { ...student };
   const message = `Student Name: ${details.name}`;
-
   return (
     <div>
       <h2>Student Details</h2>
@@ -22,7 +20,6 @@ const StudentApp = () => {
     branch: "CSE(A)",
     year: "3rd Year"
   };
-
   return (
     <div>
       <StudentDetails student={{ ...student }} />
